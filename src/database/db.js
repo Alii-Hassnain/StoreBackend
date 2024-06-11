@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
-
-const mongodbURI = "mongodb://127.0.0.1:27017/store";
+const mongodbURI = process.env.MONGODB_URI;
 
 const connectDB = async () => {
     try {
