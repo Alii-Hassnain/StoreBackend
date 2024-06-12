@@ -1,4 +1,4 @@
-import e from "cors";
+
 import mongoose, { Schema } from "mongoose";
 
 const categorySchema = new Schema(
